@@ -1,0 +1,65 @@
+.w3-sidenav {
+    z-index: 6 !important;
+    width: 200px;
+    display: none;
+}
+
+.w3-sidenav.active  {
+    display: block;
+}
+
+.w3-overlay {
+    z-index: 4 !important;
+    cursor: pointer;
+}
+
+.w3-overlay.active {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.w3-modal{
+    z-index: 6 !important;
+}
+
+.w3-modal.active{
+    display: block;
+}
+
+.w3-modal-content.deactivate {
+    display: none;
+}
+
+.w3-modal-content.progress {
+    width: 230px !important;
+    text-align: center !important;
+    margin: auto;
+}
+
+#pagination-bar {
+    margin-bottom: 12px;
+}
+
+#pagination-button {
+    width: 80px;
+}
+
+#pagination-dropdown-content {
+    margin-bottom: 12px;
+    z-index: 2;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+    -moz-appearance: number-input;
+}
